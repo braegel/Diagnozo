@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" />
 <diagnozo>
 	<diagnosis name="Azygos lobe">
 		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
