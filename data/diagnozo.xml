@@ -14,4 +14,7 @@
 		<xray>sharp hyperdense pulmonary tumor</xray>
 		<region>lung</region>
 	</diagnosis>
+	<diagnosis name="Hodgkin lymphoma">
+		<region>lung</region>
+	</diagnosis>
 </diagnozo>
