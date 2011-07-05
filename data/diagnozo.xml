@@ -1,23 +1,53 @@
 <diagnozo>
 	<diagnosis name="Azygos lobe">
+		
 		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
+		
 		<region>lung</region>
+		
 		<xray>small line in the upper lobe of the right lung</xray>
+		
 	</diagnosis>
+	
 	<diagnosis name="Insufficient inspiration">
+	
 		<region>lung</region>
+	
 		<xray>unsharp hyperdense hilar vessels</xray>
 		<xray>pulmonary increased streaking</xray>
+	
 		<differentialdiagnosis>Heart failure</differentialdiagnosis>
+	
 	</diagnosis>
+	
 	<diagnosis name="Bronchogenic cyst">
+	
 		<region>lung</region>
+	
 		<xray>sharp hyperdense pulmonary tumor</xray>
+	
 	</diagnosis>
+	
 	<diagnosis name="Hodgkin lymphoma">
+	
+		<url>http://en.wikipedia.org/wiki/Hodgkin%27s_lymphoma</url>
+
 		<region>lung</region>
+
 		<xray>widening of mediastinum</xray>
 		<xray>retrosternal filling</xray>
 		<xray>multiple pulmonary large round hyperdense tumors</xray>
+		<xray>small spotted infiltrations of both lungs with accentuation in the subfields.</xray>
+		<xray>interstitial reticular hyperdensities</xray>
+	
+		<differentialdiagnosis>Thymom</differentialdiagnosis>
+		<differentialdiagnosis>Teratom</differentialdiagnosis>
+		<differentialdiagnosis>Retrosternal Struma</differentialdiagnosis>
+		<differentialdiagnosis>Bronchiogenic cyst</differentialdiagnosis>
+		<differentialdiagnosis>Metastasis of other primarius</differentialdiagnosis>
+		<differentialdiagnosis>Milary tuberculosis</differentialdiagnosis>
+		<differentialdiagnosis>Pneumonia</differentialdiagnosis>
+		<differentialdiagnosis>Radiation pneumonitis</differentialdiagnosis>
+	
 	</diagnosis>
 </diagnozo>
