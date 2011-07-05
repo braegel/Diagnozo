@@ -1,0 +1,13 @@
+<diagnozo>
+	<diagnosis>
+		<name>Azygos lobe</name>
+		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
+		<xray>small line in the upper lobe of the right lung<xray/>
+	</diagnosis>
+	<diagnosis>
+		<name>Insufficient inspiration</name>
+		<xray>unsharp dens hilar vessels<xray/>
+		<xray>pulmonary increased streaking<xray>
+		<differentialdiagnosis>Heart failure<differentialdiagnosis>
+	</diagnosis>
+</diagnozo>
