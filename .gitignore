@@ -1,3 +1,9 @@
+# ignore emacs backups and autosaves
+
+*~
+*#
+
+# ignore auxillary tex files (like .aux etc.)
 readme.*
 !readme.tex
 !readme.txt
