@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{listings}
 
 \title{Diagnozo}
 \author{Bernd Brägelmann}
@@ -13,10 +14,30 @@
 \maketitle
 \tableofcontents
 
-\section{Diagnozo.xml}
-The \href{https://github.com/braegel/Diagnozo/blob/master/data/diagnozo.xml}{Diagnozo.xml} file contains the informations related to a diagnosis.
+\begin{abstract}
+Diagnozo will hopefully be a tool to allow finding a medical diagnosis based upon a tag based filtering system.
+\end{abstract}
 
-I suggest the following xml elements and attributes.
+\section{The diagnosis database: Diagnozo.xml}
+
+The \href{https://github.com/braegel/Diagnozo/blob/master/data/diagnozo.xml}{Diagnozo.xml}\footnote{Diagnozo is \href{http://en.wikipedia.org/wiki/Esperanto}{esperanto} for ``diagnosis''.} file contains the informations related to a diagnosis.
+
+I suggest the following xml elements and attributes. Have a look at this example:
+
+\lstset{language=xml}
+\begin{lstlisting}[caption="First version of Diagnozo.xml",label="firstversionofdiagnozoxml",breaklines=true,frame=tlRB]
+<diagnozo>
+	<diagnosis name="Azygos lobe">
+		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
+		<xray>small line in the upper lobe of the right lung<xray/>
+	</diagnosis>
+	<diagnosis name="Insufficient inspiration">
+		<xray>unsharp dens hilar vessels<xray/>
+		<xray>pulmonary increased streaking<xray>
+		<differentialdiagnosis>Heart failure<differentialdiagnosis>
+	</diagnosis>
+</diagnozo>
+\end{lstlisting}
 
 \subsection{Attributes}
 
