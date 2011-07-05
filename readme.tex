@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\title{Diagnozo}
+\author{Bernd Brägelmann}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Diagnozo.xml}
+The \href{https://github.com/braegel/Diagnozo/blob/master/diagnozo.xml}{Diagnozo.xml} file contains the informations related to a diagnosis.
+
+I suggest the following xml elements and attributes.
+
+\subsection{Attributes}
+
+\begin{description}
+	\item[name] name of the diagnosis
+\end{description}
+
+\subsection{Elements}
+All elements can be used multiple times.
+
+\begin{description}
+	\item[url] urls
+	\item[xray] how does the diagnosis look like in native x-ray images
+	\item[ct] how does the diagnosis look like in computed tomography scans
+	\item[mri] how does the diagnosis look like in computed tomography scans
+\end{description}
+
+\end{document}
