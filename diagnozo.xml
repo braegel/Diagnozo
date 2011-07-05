@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" />
+<diagnozo>
+	<diagnosis name="Azygos lobe">
+		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
+		<xray>small line in the upper lobe of the right lung</xray>
+		<region>lung</region>
+	</diagnosis>
+	<diagnosis name="Insufficient inspiration">
+		<xray>unsharp hyperdense hilar vessels</xray>
+		<xray>pulmonary increased streaking</xray>
+		<region>lung</region>
+		<differentialdiagnosis>Heart failure</differentialdiagnosis>
+	</diagnosis>
+	<diagnosis name="Bronchogenic cyst">
+		<xray>sharp hyperdense pulmonary tumor</xray>
+		<region>lung</region>
+	</diagnosis>
+</diagnozo>
