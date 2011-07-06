@@ -16,7 +16,7 @@
 		<xray>unsharp hyperdense hilar vessels</xray>
 		<xray>pulmonary increased streaking</xray>
 	
-		<differentialdiagnosis>Heart failure</differentialdiagnosis>
+		<differentialdiagnosis>heart failure</differentialdiagnosis>
 	
 	</diagnosis>
 	
@@ -24,7 +24,10 @@
 	
 		<region>lung</region>
 	
-		<xray>sharp hyperdense pulmonary tumor</xray>
+		<xray>sharp</xray>
+		<xray>hyperdense</xray>
+		<xray>calfication</xray>
+		<xray>thin walled</xray>
 	
 	</diagnosis>
 	
@@ -36,18 +39,52 @@
 
 		<xray>widening of mediastinum</xray>
 		<xray>retrosternal filling</xray>
-		<xray>multiple pulmonary large round hyperdense tumors</xray>
-		<xray>small spotted infiltrations of both lungs with accentuation in the subfields.</xray>
+		<xray>multiple</xray>
+		<xray>large</xray>
+		<xray>round</xray>
+		<xray>hyperdense</xray>
+		<xray>small spotted</xray>
+		<xray>infiltrations</xray>
+		<xray>both lungs</xray>
+		<xray>accentuation in the subfields</xray>
 		<xray>interstitial reticular hyperdensities</xray>
 	
-		<differentialdiagnosis>Thymom</differentialdiagnosis>
-		<differentialdiagnosis>Teratom</differentialdiagnosis>
-		<differentialdiagnosis>Retrosternal Struma</differentialdiagnosis>
-		<differentialdiagnosis>Bronchiogenic cyst</differentialdiagnosis>
-		<differentialdiagnosis>Metastasis of other primarius</differentialdiagnosis>
-		<differentialdiagnosis>Milary tuberculosis</differentialdiagnosis>
-		<differentialdiagnosis>Pneumonia</differentialdiagnosis>
-		<differentialdiagnosis>Radiation pneumonitis</differentialdiagnosis>
+		<differentialdiagnosis>thymom</differentialdiagnosis>
+		<differentialdiagnosis>reratom</differentialdiagnosis>
+		<differentialdiagnosis>retrosternal Struma</differentialdiagnosis>
+		<differentialdiagnosis>bronchiogenic cyst</differentialdiagnosis>
+		<differentialdiagnosis>metastasis of other primarius</differentialdiagnosis>
+		<differentialdiagnosis>milary tuberculosis</differentialdiagnosis>
+		<differentialdiagnosis>pneumonia</differentialdiagnosis>
+		<differentialdiagnosis>radiation pneumonitis</differentialdiagnosis>
 	
+	</diagnosis>
+	
+	<diagnosis name="Schwannoma">
+		
+		<region>lung</region>
+		
+		<xray>sharp</xray>
+		<xray>focally</xray>
+		<xray>dorsal mediastinum</xray>
+
+		<differentialdiagnosis>neurofibroma</differentialdiagnosis>
+		<differentialdiagnosis>ganlglioneuroma</differentialdiagnosis>
+		<differentialdiagnosis>neuroblastoma</differentialdiagnosis>
+		<differentialdiagnosis>metastasis</differentialdiagnosis>
+		<differentialdiagnosis>chondrosarkoma</differentialdiagnosis>
+		<differentialdiagnosis>lymphoma</differentialdiagnosis>
+		<differentialdiagnosis>mesenchymal tumors</differentialdiagnosis>
+		<differentialdiagnosis>infectious spondylitis</differentialdiagnosis>
+		<differentialdiagnosis>sarcoidosis</differentialdiagnosis>
+		<differentialdiagnosis>aortic aneurysm</differentialdiagnosis>
+		<differentialdiagnosis>haematoma</differentialdiagnosis>
+		<differentialdiagnosis>bronchogenic cyst</differentialdiagnosis>
+		<differentialdiagnosis>neuroenteric cyst</differentialdiagnosis>
+		<differentialdiagnosis>Bochdalek hernia</differentialdiagnosis>
+		<differentialdiagnosis>Lipoma</differentialdiagnosis>
+		<differentialdiagnosis>Bochdalek hernia</differentialdiagnosis>
+		<differentialdiagnosis>extramedullary erythropoiesis</differentialdiagnosis>
+				
 	</diagnosis>
 </diagnozo>
