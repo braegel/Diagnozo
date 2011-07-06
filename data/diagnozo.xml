@@ -4,8 +4,8 @@
 		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
 		
 		<region>lung</region>
-		
-		<xray>small line in the upper lobe of the right lung</xray>
+		<region>upper lobe of the right lung</region>
+		<xray>small vertically bended line</xray>
 		
 	</diagnosis>
 	
@@ -36,7 +36,8 @@
 		<url>http://en.wikipedia.org/wiki/Hodgkin%27s_lymphoma</url>
 
 		<region>lung</region>
-
+		<region>retrosternal</region>
+		
 		<xray>widening of mediastinum</xray>
 		<xray>retrosternal filling</xray>
 		<xray>multiple</xray>
@@ -63,10 +64,10 @@
 	<diagnosis name="Schwannoma">
 		
 		<region>lung</region>
+		<region>dorsal mediastinum</region>
 		
 		<xray>sharp</xray>
-		<xray>focally</xray>
-		<xray>dorsal mediastinum</xray>
+		<xray>round</xray>
 
 		<differentialdiagnosis>neurofibroma</differentialdiagnosis>
 		<differentialdiagnosis>ganlglioneuroma</differentialdiagnosis>
@@ -87,4 +88,17 @@
 		<differentialdiagnosis>extramedullary erythropoiesis</differentialdiagnosis>
 				
 	</diagnosis>
+	
+	<diagnosis name="Ganglioneuroma of the sympathetic chain">
+		
+		<region>lung</region>
+		
+		<xray>sharp</xray>
+		<xray>dorsal mediastinum</xray>
+		<mri>enhancement<mri>
+		<differentialdiagnosis>other tumor of the dorsal mediastinum</differentialdiagnosis>
+			
+				
+	</diagnosis>
+	
 </diagnozo>
