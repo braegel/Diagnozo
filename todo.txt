@@ -1,4 +1,1 @@
-* xml validation
-* validation that diagnosis are uniqe
-* web interface
-* language check through native speaker
+see README.pdf
