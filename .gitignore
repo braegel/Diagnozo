@@ -3,6 +3,9 @@
 *~
 *#
 
+# ignore mac fs files
+.DS_Store
+
 # ignore auxillary tex files (like .aux etc.)
 readme.*
 !readme.tex
