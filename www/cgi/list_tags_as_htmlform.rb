@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+# #!/usr/bin/env ruby
 
 require 'cgi'
 require '../../lib/Diagnose.rb'
@@ -37,8 +37,9 @@ usedtags=collect_tags(diagnosesis)
 
 puts "<HTML><BODY>"
 
+puts "<FORM>"
 puts "<H2>All used tags</H2>"
 
-usedtags.printhtml
-
+puts "</FORM>"
+puts usedtags.htmlformitems
 puts "\n</BODY></HTML>"
