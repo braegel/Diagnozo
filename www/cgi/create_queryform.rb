@@ -28,14 +28,13 @@ diagnosesis = read_diagnozo('../../data/diagnozo.xml')
 
 
 cgi = CGI.new
-
 puts cgi.header
+puts "<HTML><BODY>"
 
 usedtags=Tags.new
 usedtags=collect_tags(diagnosesis)
 #usedtags.sort
 
-puts "<HTML><BODY>"
 
 puts "<FORM>"
 puts "<H2>All used tags</H2>"
@@ -43,4 +42,4 @@ puts usedtags.htmlformitems
 puts "<input type=\"submit\" value=\" Query \">"
 puts "</FORM>"
 
-puts "\n</BODY></HTML>"
+puts "\n</BODY></HTML>\n"

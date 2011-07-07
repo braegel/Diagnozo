@@ -50,6 +50,33 @@ class Diagnose
     @mri=Array.new
     @dd=Array.new    
   end
+
+  def tags2html
+    html = ""
+    
+    html += "<DL>\n"
+    
+    @url.each do |url|
+      html += "\t<DT>url</DT><DD>#{url}</DD>\n"
+    end
+    @region.each do |url|
+      html += "\t<DT>region</DT><DD>#{url}</DD>\n"
+    end
+    @xray.each do |url|
+      html += "\t<DT>xray</DT><DD>#{url}</DD>\n"
+    end
+    @ct.each do |url|
+      html += "\t<DT>ct</DT><DD>#{url}</DD>\n"
+    end
+    @mri.each do |url|
+      html += "\t<DT>mri</DT><DD>#{url}</DD>\n"
+    end
+    
+    html += "</DL>\n"
+    
+    html
+  end  
+
   
   def print
     puts "Diagnosis name: '#{name}'"
