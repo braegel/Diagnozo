@@ -1,8 +1,6 @@
-#!/usr/bin/env ruby
-
 require '../lib/Diagnose.rb'
 
-diagnosesis = read_diagnozo
+diagnosesis = read_diagnozo('../data/diagnozo.xml')
 
 diagnosesis.each do |diagnose| 
   diagnose.print

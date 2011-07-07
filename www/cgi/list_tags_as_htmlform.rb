@@ -1,7 +1,6 @@
-#!/usr/bin/env ruby
-
-require '../lib/Diagnose.rb'
-require '../lib/Tags.rb'
+require 'cgi'
+require '../../lib/Diagnose.rb'
+require '../../lib/Tags.rb'
 
 def collect_tags(diagnosesis)
   tags=Tags.new
@@ -23,10 +22,21 @@ def collect_tags(diagnosesis)
   tags
 end
 
-diagnosesis = read_diagnozo
+diagnosesis = read_diagnozo('../../data/diagnozo.xml')
+
+
+cgi = CGI.new
+
+puts cgi.header
 
 usedtags=Tags.new
 usedtags=collect_tags(diagnosesis)
 #usedtags.sort
-puts "All used tags"
-usedtags.print
+
+puts "<HTML><BODY>"
+
+puts "<H2>All used tags</H2>"
+
+usedtags.printhtml
+
+puts "\n</BODY></HTML>"

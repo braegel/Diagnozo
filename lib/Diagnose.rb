@@ -1,7 +1,7 @@
 require 'xmlsimple'
 
-def read_diagnozo
-  diagnozo = XmlSimple.xml_in('../data/diagnozo.xml')
+def read_diagnozo(path)
+  diagnozo = XmlSimple.xml_in(path)
 
   diagnosis = Array.new
 
@@ -70,6 +70,5 @@ class Diagnose
         puts "\tmri: #{url}"
       end
     puts
-  end
-  
+  end  
 end

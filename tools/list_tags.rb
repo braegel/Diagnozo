@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 require '../lib/Diagnose.rb'
 require '../lib/Tags.rb'
 
@@ -23,7 +21,7 @@ def collect_tags(diagnosesis)
   tags
 end
 
-diagnosesis = read_diagnozo
+diagnosesis = read_diagnozo('../data/diagnozo.xml')
 
 usedtags=Tags.new
 usedtags=collect_tags(diagnosesis)
