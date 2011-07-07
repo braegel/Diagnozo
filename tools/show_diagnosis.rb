@@ -1,7 +1,7 @@
 require '../lib/Diagnose.rb'
 
-diagnosis = read_diagnozo
+diagnosesis = read_diagnozo
 
-diagnosis.each do |diagnose| 
+diagnosesis.each do |diagnose| 
   diagnose.print
 end
