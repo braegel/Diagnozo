@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE diagnozo SYSTEM "diagnozo.dtd">
 <diagnozo>
 	<diagnosis name="Azygos lobe">
 		
@@ -16,7 +18,7 @@
 		<xray>unsharp hyperdense hilar vessels</xray>
 		<xray>pulmonary increased streaking</xray>
 	
-		<differentialdiagnosis>heart failure</differentialdiagnosis>
+		<dd>heart failure</dd>
 	
 	</diagnosis>
 	
@@ -50,14 +52,14 @@
 		<xray>accentuation in the subfields</xray>
 		<xray>interstitial reticular hyperdensities</xray>
 	
-		<differentialdiagnosis>thymom</differentialdiagnosis>
-		<differentialdiagnosis>reratom</differentialdiagnosis>
-		<differentialdiagnosis>retrosternal Struma</differentialdiagnosis>
-		<differentialdiagnosis>bronchiogenic cyst</differentialdiagnosis>
-		<differentialdiagnosis>metastasis of other primarius</differentialdiagnosis>
-		<differentialdiagnosis>milary tuberculosis</differentialdiagnosis>
-		<differentialdiagnosis>pneumonia</differentialdiagnosis>
-		<differentialdiagnosis>radiation pneumonitis</differentialdiagnosis>
+		<dd>thymom</dd>
+		<dd>reratom</dd>
+		<dd>retrosternal Struma</dd>
+		<dd>bronchiogenic cyst</dd>
+		<dd>metastasis of other primarius</dd>
+		<dd>milary tuberculosis</dd>
+		<dd>pneumonia</dd>
+		<dd>radiation pneumonitis</dd>
 	
 	</diagnosis>
 	
@@ -69,23 +71,23 @@
 		<xray>sharp</xray>
 		<xray>round</xray>
 
-		<differentialdiagnosis>neurofibroma</differentialdiagnosis>
-		<differentialdiagnosis>ganlglioneuroma</differentialdiagnosis>
-		<differentialdiagnosis>neuroblastoma</differentialdiagnosis>
-		<differentialdiagnosis>metastasis</differentialdiagnosis>
-		<differentialdiagnosis>chondrosarkoma</differentialdiagnosis>
-		<differentialdiagnosis>lymphoma</differentialdiagnosis>
-		<differentialdiagnosis>mesenchymal tumors</differentialdiagnosis>
-		<differentialdiagnosis>infectious spondylitis</differentialdiagnosis>
-		<differentialdiagnosis>sarcoidosis</differentialdiagnosis>
-		<differentialdiagnosis>aortic aneurysm</differentialdiagnosis>
-		<differentialdiagnosis>haematoma</differentialdiagnosis>
-		<differentialdiagnosis>bronchogenic cyst</differentialdiagnosis>
-		<differentialdiagnosis>neuroenteric cyst</differentialdiagnosis>
-		<differentialdiagnosis>Bochdalek hernia</differentialdiagnosis>
-		<differentialdiagnosis>Lipoma</differentialdiagnosis>
-		<differentialdiagnosis>Bochdalek hernia</differentialdiagnosis>
-		<differentialdiagnosis>extramedullary erythropoiesis</differentialdiagnosis>
+		<dd>neurofibroma</dd>
+		<dd>ganlglioneuroma</dd>
+		<dd>neuroblastoma</dd>
+		<dd>metastasis</dd>
+		<dd>chondrosarkoma</dd>
+		<dd>lymphoma</dd>
+		<dd>mesenchymal tumors</dd>
+		<dd>infectious spondylitis</dd>
+		<dd>sarcoidosis</dd>
+		<dd>aortic aneurysm</dd>
+		<dd>haematoma</dd>
+		<dd>bronchogenic cyst</dd>
+		<dd>neuroenteric cyst</dd>
+		<dd>Bochdalek hernia</dd>
+		<dd>Lipoma</dd>
+		<dd>Bochdalek hernia</dd>
+		<dd>extramedullary erythropoiesis</dd>
 				
 	</diagnosis>
 	
@@ -95,10 +97,10 @@
 		
 		<xray>sharp</xray>
 		<xray>dorsal mediastinum</xray>
-		<mri>enhancement<mri>
-		<differentialdiagnosis>other tumor of the dorsal mediastinum</differentialdiagnosis>
-			
-				
+		<mri>enhancement</mri>
+
+		<dd>other tumor of the dorsal mediastinum</dd>
+						
 	</diagnosis>
 	
 </diagnozo>
