@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE diagnozo SYSTEM "diagnozo.dtd">
 <diagnozo>
-	<diagnosis name="Azygos lobe">
+	<diagnosis name="azygos lobe">
 		
 		<url>http://en.wikipedia.org/wiki/Azygos_lobe</url>
 		
@@ -11,7 +11,7 @@
 		
 	</diagnosis>
 	
-	<diagnosis name="Insufficient inspiration">
+	<diagnosis name="insufficient inspiration">
 	
 		<region>lung</region>
 	
@@ -22,7 +22,7 @@
 	
 	</diagnosis>
 	
-	<diagnosis name="Bronchogenic cyst">
+	<diagnosis name="bronchogenic cyst">
 	
 		<region>lung</region>
 	
@@ -63,7 +63,7 @@
 	
 	</diagnosis>
 	
-	<diagnosis name="Schwannoma">
+	<diagnosis name="schwannoma">
 		
 		<region>lung</region>
 		<region>dorsal mediastinum</region>
@@ -91,16 +91,41 @@
 				
 	</diagnosis>
 	
-	<diagnosis name="Ganglioneuroma of the sympathetic chain">
+	<diagnosis name="ganglioneuroma of the sympathetic chain">
 		
 		<region>lung</region>
+		<region>dorsal mediastinum</region>
 		
 		<xray>sharp</xray>
-		<xray>dorsal mediastinum</xray>
 		<mri>enhancement</mri>
 
 		<dd>other tumor of the dorsal mediastinum</dd>
 						
 	</diagnosis>
 	
+	<diagnosis name="teratoma of the anterior mediastinum">
+		
+		<region>lung</region>
+		<region>anterior mediastinum</region>
+		
+		<xray>sharp</xray>
+		<xray>focal</xray>
+		
+		<dd>other tumor of the anterior mediastinum</dd>
+		<dd>teratocarinoma</dd>
+		<dd>embryonic carcinoma cells</dd>
+		<dd>chorioncarcinoma</dd>
+		<dd>seminoma</dd>
+		<dd>tumor of the thyreoid gland</dd>
+		<dd>tumor of the parathyroid gland</dd>
+		<dd>ectopic parathyroid gland</dd>
+		<dd>adenoma</dd>
+		<dd>lymphoma</dd>
+		<dd>lymph node metastasis</dd>
+		<dd>tumors of the thymus</dd>
+		<dd>sarcoidosis</dd>
+						
+	</diagnosis>
+
+
 </diagnozo>
