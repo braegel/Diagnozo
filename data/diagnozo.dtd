@@ -1,0 +1,12 @@
+<!-- For documentation see README.pdf -->
+
+<!ELEMENT diagnozo (diagnosis+)>
+
+<!ELEMENT diagnosis (url*,region*,xray*,mri*,dd*)>
+<!ATTLIST diagnosis name CDATA #REQUIRED>
+
+	<!ELEMENT url (#PCDATA)>
+	<!ELEMENT region (#PCDATA)>
+	<!ELEMENT xray (#PCDATA)>
+	<!ELEMENT mri (#PCDATA)>
+	<!ELEMENT dd (#PCDATA)>
