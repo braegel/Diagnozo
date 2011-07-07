@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require '../lib/Diagnose.rb'
 require '../lib/Tags.rb'
 
