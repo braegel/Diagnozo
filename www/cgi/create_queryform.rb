@@ -9,6 +9,9 @@ def collect_tags(diagnosesis)
   
   diagnosesis.each do |diagnose|
 
+    diagnose.region.each do |tag|
+      tags.region[tag]= tags.region[tag]+1
+    end
     diagnose.xray.each do |tag|
       tags.xray[tag]= tags.xray[tag]+1
     end

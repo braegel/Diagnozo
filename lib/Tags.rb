@@ -1,13 +1,22 @@
 class Tags
-  attr_accessor :xray,:ct,:mri
+  attr_accessor :region,:xray,:ct,:mri
   
   def initialize
+    @region=Hash.new(0)
     @xray=Hash.new(0)
     @ct=Hash.new(0)
     @mri=Hash.new(0)
   end
   
   def print
+
+    if @region.size>0
+      puts "xray:"
+      @region.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
+        puts "\t#{key}"
+      end
+      puts
+    end
 
     if @xray.size>0
       puts "xray:"
@@ -46,6 +55,11 @@ class Tags
   
   def htmlformitems
     html = ""
+
+    if @region.size > 0
+      html += "<H3>region:</H3>"
+      html += create_form_for_tags(@region) || ""
+    end
     
     if @xray.size > 0
       html += "<H3>xray:</H3>"
