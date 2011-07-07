@@ -1,4 +1,4 @@
-# #!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 require 'cgi'
 require '../../lib/Diagnose.rb'
@@ -39,7 +39,8 @@ puts "<HTML><BODY>"
 
 puts "<FORM>"
 puts "<H2>All used tags</H2>"
-
-puts "</FORM>"
 puts usedtags.htmlformitems
+puts "<input type=\"submit\" value=\" Query \">"
+puts "</FORM>"
+
 puts "\n</BODY></HTML>"
