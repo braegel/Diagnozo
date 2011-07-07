@@ -9,4 +9,5 @@
 	<!ELEMENT region (#PCDATA)>
 	<!ELEMENT xray (#PCDATA)>
 	<!ELEMENT mri (#PCDATA)>
+	<!ELEMENT ct (#PCDATA)>
 	<!ELEMENT dd (#PCDATA)>
