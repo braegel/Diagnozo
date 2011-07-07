@@ -1,6 +1,7 @@
-#!/usr/local/rvm/bin/ruby
+#!/usr/bin/env ruby                                                                                                                                                                                                                                    
 
-puts "HTTP/1.0 200 OK"
-puts "Content-type: text/html\n\n"
-puts "<html><body>This is a test</body></html>"
+require 'cgi'
 
+cgi = CGI.new
+puts cgi.header
+puts "<html><body>Ruby and cgi is up and running</body></html>"
