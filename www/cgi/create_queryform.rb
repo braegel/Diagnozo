@@ -9,6 +9,12 @@ def collect_tags(diagnosesis)
   
   diagnosesis.each do |diagnose|
 
+    diagnose.anamnesis.each do |tag|
+      tags.anamnesis[tag]= tags.anamnesis[tag]+1
+    end
+    diagnose.pe.each do |tag|
+      tags.pe[tag]= tags.pe[tag]+1
+    end
     diagnose.region.each do |tag|
       tags.region[tag]= tags.region[tag]+1
     end

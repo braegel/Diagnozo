@@ -1,7 +1,9 @@
 class Tags
-  attr_accessor :region,:xray,:ct,:mri
+  attr_accessor :anamnesis,:pe,:region,:xray,:ct,:mri
   
   def initialize
+    @anamnesis=Hash.new(0)
+    @pe=Hash.new(0)
     @region=Hash.new(0)
     @xray=Hash.new(0)
     @ct=Hash.new(0)
@@ -9,6 +11,21 @@ class Tags
   end
   
   def print
+
+    if @anamnesis.size>0
+      puts "xray:"
+      @anamnesis.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
+        puts "\t#{key}"
+      end
+      puts
+    end
+    if @pe.size>0
+      puts "xray:"
+      @pe.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
+        puts "\t#{key}"
+      end
+      puts
+    end
 
     if @region.size>0
       puts "xray:"
@@ -55,6 +72,16 @@ class Tags
   
   def htmlformitems
     html = ""
+
+    if @anamnesis.size > 0
+      html += "<H3>anamnesis:</H3>"
+      html += create_form_for_tags(@anamnesis) || ""
+    end
+
+    if @pe.size > 0
+      html += "<H3>pe:</H3>"
+      html += create_form_for_tags(@pe) || ""
+    end
 
     if @region.size > 0
       html += "<H3>region:</H3>"

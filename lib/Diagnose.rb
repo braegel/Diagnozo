@@ -39,11 +39,13 @@ end
 
 class Diagnose
   attr_reader :name
-  attr_accessor :url,:region,:xray,:mri, :ct, :dd
+  attr_accessor :url,:anamnesis,:pe,:region,:xray,:mri, :ct, :dd
   
   def initialize(name)
     @name=name
     @url=Array.new
+    @anamnesis=Array.new
+    @pe=Array.new
     @region=Array.new
     @xray=Array.new
     @ct=Array.new
