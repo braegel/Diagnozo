@@ -72,8 +72,6 @@ class Tags
   
   def htmlformitems
     html = ""
-
-    p @anamesis
     if @anamnesis.size > 0
       html += "<H3>anamnesis:</H3>"
       html += create_form_for_tags(@anamnesis) || ""
