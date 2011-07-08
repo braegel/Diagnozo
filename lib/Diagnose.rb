@@ -61,6 +61,12 @@ class Diagnose
     @url.each do |url|
       html += "\t<DT>url</DT><DD>#{url}</DD>\n"
     end
+    @anamnesis.each do |url|
+      html += "\t<DT>region</DT><DD>#{url}</DD>\n"
+    end
+    @pe.each do |url|
+      html += "\t<DT>region</DT><DD>#{url}</DD>\n"
+    end
     @region.each do |url|
       html += "\t<DT>region</DT><DD>#{url}</DD>\n"
     end
