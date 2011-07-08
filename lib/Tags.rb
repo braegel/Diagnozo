@@ -13,14 +13,14 @@ class Tags
   def print
 
     if @anamnesis.size>0
-      puts "xray:"
+      puts "anamnesis:"
       @anamnesis.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
         puts "\t#{key}"
       end
       puts
     end
     if @pe.size>0
-      puts "xray:"
+      puts "pe:"
       @pe.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
         puts "\t#{key}"
       end
@@ -28,7 +28,7 @@ class Tags
     end
 
     if @region.size>0
-      puts "xray:"
+      puts "region:"
       @region.sort {|a,b| b[1]<=>a[1]}.each do |key,value|
         puts "\t#{key}"
       end
@@ -73,6 +73,7 @@ class Tags
   def htmlformitems
     html = ""
 
+    p @anamesis
     if @anamnesis.size > 0
       html += "<H3>anamnesis:</H3>"
       html += create_form_for_tags(@anamnesis) || ""

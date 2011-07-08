@@ -12,6 +12,14 @@ def read_diagnozo(path)
       diagnose['url'].each { |url| adiagnose.url << url}
     end
 
+    if diagnose['anamnesis']
+      diagnose['anamnesis'].each { |anamnesis| adiagnose.anamnesis << anamnesis}
+    end
+
+    if diagnose['pe']
+      diagnose['pe'].each { |pe| adiagnose.pe << pe}
+    end
+
     if diagnose['region']
       diagnose['region'].each { |region| adiagnose.region << region}
     end
@@ -62,10 +70,10 @@ class Diagnose
       html += "\t<DT>url</DT><DD>#{url}</DD>\n"
     end
     @anamnesis.each do |url|
-      html += "\t<DT>region</DT><DD>#{url}</DD>\n"
+      html += "\t<DT>anamnesis</DT><DD>#{url}</DD>\n"
     end
     @pe.each do |url|
-      html += "\t<DT>region</DT><DD>#{url}</DD>\n"
+      html += "\t<DT>pe</DT><DD>#{url}</DD>\n"
     end
     @region.each do |url|
       html += "\t<DT>region</DT><DD>#{url}</DD>\n"
