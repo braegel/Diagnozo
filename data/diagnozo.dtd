@@ -2,10 +2,12 @@
 
 <!ELEMENT diagnozo (diagnosis+)>
 
-<!ELEMENT diagnosis (url*,region*,xray*,mri*,dd*)>
+<!ELEMENT diagnosis (url*,anamnesis*,pe*,region*,xray*, ct*, mri*,dd*)>
 <!ATTLIST diagnosis name CDATA #REQUIRED>
 
 	<!ELEMENT url (#PCDATA)>
+	<!ELEMENT anamnesis (#PCDATA)>	
+	<!ELEMENT pe (#PCDATA)>	
 	<!ELEMENT region (#PCDATA)>
 	<!ELEMENT xray (#PCDATA)>
 	<!ELEMENT ct (#PCDATA)>

@@ -126,6 +126,59 @@
 		<dd>sarcoidosis</dd>
 						
 	</diagnosis>
+	
+	<diagnosis name="thymuscyst">
+		
+		<anamnesis>no discomfort</anamnesis>
+		<anamnesis>compression symptoms</anamnesis>
+		
+		<region>lung</region>
+		<region>anterior mediastinum</region>
+		
+		<xray>widened heart shadow</xray>
 
+		<ct>sharp</ct>
+		<ct>fluid isodense</ct>
+					
+		<dd>other tumor of the anterior mediastinum</dd>
+		<dd>thymoma</dd>
+		<dd>lymphoma</dd>
+	</diagnosis>
+	
+	<diagnosis name="pectus excavatum">
+
+		<url>http://en.wikipedia.org/wiki/Pectus_excavatum</url>
+
+		<pe>caved-in or sunken appearance of the chest</pe>
+		
+		<region>lung</region>
+		
+		<xray>widened heart shadow</xray>
+		<xray>unsharp right heart shadow</xray>
+		<xray>caved-in sternum</xray>
+		
+		<dd>middle lobe infiltrate</dd>
+		<dd>middle lobe infiltrate</dd>
+		
+	</diagnosis>
+
+	<diagnosis name="pulmonal sequestration">
+
+		<region>lung</region>
+		<region>only in one lobe</region>
+		<region>in left or in right posterior lower lobe</region>
+		
+		<xray>hyperdensities</xray>		
+		
+		<ct>focal</ct>
+		<ct>hyperdense</ct>
+		<ct>air inclusions</ct>
+		<ct>blood supply from a branch of the aorta</ct>
+	
+		<dd>pneumonia</dd>
+		<dd>tuberculosis</dd>
+		<dd>lung cancer</dd>
+				
+	</diagnosis>
 
 </diagnozo>
