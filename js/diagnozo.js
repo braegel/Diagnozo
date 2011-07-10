@@ -35,3 +35,5 @@ xmlhttp.onreadystatechange=function() {
     }
 }
     xmlhttp.send(null)
+
+document.write("hello world")
