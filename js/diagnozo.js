@@ -28,7 +28,7 @@ if (!xmlhttp && window.createRequest) {
     }
 }
 
-xmlhttp.open("GET", "../data/diagnozo.xml",true);
+xmlhttp.open("GET", "http://www.braegelmann.net/bernd/projects/Diagnozo.git/data/diagnozo.xml",true);
 xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4) {
 		document.write(xmlhttp.responseText)
